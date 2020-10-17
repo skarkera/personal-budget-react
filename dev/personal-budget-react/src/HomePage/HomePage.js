@@ -47,7 +47,6 @@ function HomePage() {
       // set the color scale
       var color = d3
         .scaleOrdinal()
-        //.domain(["a", "b", "c", "d", "e", "f", "g", "h"])
         .domain(title)
         .range(d3.schemeDark2);
 
