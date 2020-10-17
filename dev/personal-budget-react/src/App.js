@@ -1,4 +1,5 @@
 import React from 'react';
+import './index.scss';
 
 import {
   BrowserRouter as Router,
@@ -6,7 +7,7 @@ import {
   Route
 } from "react-router-dom";
 
-import './App.css';
+import './App.scss';
 import Menu from './Menu/Menu';
 import Hero from './Hero/Hero';
 import HomePage from './HomePage/HomePage';
